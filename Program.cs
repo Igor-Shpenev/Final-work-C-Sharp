@@ -26,3 +26,5 @@ for (int i = 0; i < array.Length; i++)
     array[i] = Console.ReadLine();
     
 }
+string[] newArray = CreatNewArray(array);
+ShowArray(newArray);
