@@ -19,3 +19,10 @@ void ShowArray(string[] array)
         Console.Write($"{array[i]}, ");
     }
 }
+string[] array = new string[4];
+for (int i = 0; i < array.Length; i++)
+{
+    Console.Write("Input string: ");
+    array[i] = Console.ReadLine();
+    
+}
